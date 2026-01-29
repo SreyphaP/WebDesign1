@@ -1,0 +1,62 @@
+
+p{ 
+	color:#6A994E;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+ }
+
+ h1{
+ 	color: #386641;
+ }
+
+ body{
+ 	background-color:#whitesmoke;
+ 	text-align: center;
+ }
+
+h2{
+	color:#386641;
+	
+}
+
+h3{
+	color:#386641;
+	
+}
+ 
+#hobbies{
+	list-style-type: none;
+	padding: 0;
+}
+
+#hobbies li{
+	color:#6A994E;
+}
+
+#container {
+	color: white;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav{
+	list-style-type: none;
+	padding: 0;
+}
+
+#nav a:link, a:visited {
+	display: block;
+	color:white;
+	background-color: #6A994E;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 10px;
+}
+
+#nav a:hover, a:active {
+	background-color: #386641;
+}
