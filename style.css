@@ -1,14 +1,16 @@
 
 p{ 
 	color:#6A994E;
-	font-family: "trebuchet MS", sans-serif;
+	font-family: "Poppins","trebuchet MS", sans-serif;
 	font-weight: bold;
 	font-style: italic;
+	font-size: 1rem;
  }
 
  h1{
  	color: #386641;
- 	font-family: Georgia,"Times New Roman", serif;
+ 	font-family: "VT323", Georgia,"Times New Roman", serif;
+ 	font-size: 2rem;
  }
 
  body{
@@ -18,13 +20,15 @@ p{
 
 h2{
 	color:#386641;
-	font-family: Georgia,"Times New Roman", serif;
+	font-family:"VT323", Georgia,"Times New Roman", serif;
+	font-size: 2rem;
 	
 }
 
 h3{
 	color:#386641;
-	font-family: Georgia,"Times New Roman", serif;
+	font-family:"VT323", Georgia,"Times New Roman", serif;
+	font-size: 2rem;
 	
 }
  
@@ -35,7 +39,7 @@ h3{
 
 #hobbies li{
 	color:#6A994E;
-	font-family:"trebuchet MS", sans-serif;
+	font-family:"Poppins","trebuchet MS", sans-serif;
 	font-weight: bold;
 	font-style: italic;
 }
@@ -60,7 +64,7 @@ h3{
 	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
-	font-family:"trebuchet MS", sans-serif;
+	font-family:"Poppins","trebuchet MS", sans-serif;
 	padding: 10px;
 }
 
