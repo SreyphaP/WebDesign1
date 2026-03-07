@@ -50,7 +50,9 @@ nav ul {
 }
 
 .section1 { grid-area:g;
-  text-align: center;
+  text-align: center; 
+  place-items: center;
+ display: grid;
 }
 
 article {
@@ -79,7 +81,7 @@ article {
         grid-template-areas:
             "a b "
             "c d "
-            "e e  ";
+            "e e ";
   }
 }
 
@@ -103,7 +105,9 @@ article {
 }
 
 .section1 { grid-area:g;
- 
+ place-items: center;
+ display: grid;
+ text-align: center;
 }
 
 .card1 { grid-area: a; }
