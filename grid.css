@@ -80,7 +80,7 @@ article {
         grid-gap: 10 px;
         grid-template-areas:
             "a b "
-            "c d "
+            "d  c"
             "e e ";
   }
 }
