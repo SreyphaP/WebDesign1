@@ -1,0 +1,162 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: column;
+}
+
+.image1{ 
+  display: none;
+ }
+
+@media screen and (min-width: 450px) {
+
+    nav ul {
+        flex-flow: row;
+        justify-content: space-between;
+    }
+
+
+    #container {
+        width: 95%;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+
+
+  nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+    header h1 {
+        order: 1;
+    }
+
+    nav {
+        order: 2;
+    }
+
+    #container {
+        width: 95%;
+    }
+
+    nav ul li {
+      margin: 5px;
+    }
+
+.item1 {
+    margin-right: auto;
+  }
+
+.image1{
+  display: flex;
+}
+
+
+.image1 { grid-area: f; 
+  width: 350px;
+}
+
+.section1 { grid-area:g;
+  text-align: center; 
+  place-items: center;
+ display: grid;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 10px;
+    grid-template-areas: 
+      "f g "
+    }
+
+
+.card1 { grid-area: a; }
+.card2 { grid-area: b; }
+.card3 { grid-area: c; }
+.card4 { grid-area: d; }
+.card5 { grid-area: e; }
+
+
+.cards {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 10 px;
+        grid-template-areas:
+            "a b "
+            "d  c"
+            "e e ";
+  }
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    #container {
+        width: 95%;
+    }
+
+    nav ul li {
+      margin: 5px;
+    }
+
+    .item1 {
+    margin-right: auto;
+  }
+
+.image1 { grid-area: f; 
+  width: 400px;
+}
+
+.section1 { grid-area:g;
+ place-items: center;
+ display: grid;
+ text-align: center;
+}
+
+.card1 { grid-area: a; }
+.card2 { grid-area: b; }
+.card3 { grid-area: c; }
+.card4 { grid-area: d; }
+.card5 { grid-area: e; }
+
+.cards {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10 px;
+        grid-template-areas:
+            "a b b "
+            "c c e "
+            "d d d "
+    }
+
+
+  article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 30px;
+    grid-template-areas: 
+      "f g g "
+    }
+
+}
