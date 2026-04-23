@@ -240,7 +240,7 @@ section{
 }
 
 .projects-card img{
-    width: 20vw;
+    width: 30vw;
     border-radius: 1rem;
 }
 
@@ -304,5 +304,110 @@ footer ul li{
 .copyright{
     font-size: 300;
     margin-top: 2rem;
+}
 
+@media(max-width:1000px){
+    header{
+        padding: 1rem 2rem;
+        gap: 2rem;
+    }
+    .about.about-container{
+        gap: 3rem;
+    }
+    .skills-info{
+        flex-direction: column;
+    }
+    .input-box input{
+        padding: 2rem 5rem;
+        font-size: 2.5;
+    }
+    .input input::placeholder{
+        font-size: 2.5rem;
+    }
+    .info-box i{
+        font-size: 2 rem;
+    }
+}
+
+@media(max-width: 800px){
+    header{
+        gap: 1rem;
+        padding: 1rem 1rem;
+    }
+    herder .logo{
+        font-size: 1rem;
+    }
+    .about-container{
+        flex-direction: column;
+    }
+    .input-box input{
+        padding: 1rem 2rem;
+        font-size: 1.8rem;
+    }
+    .input-box input::placeholder{
+        font-size: 1.5rem;
+    }
+    .input-box i{
+        display: none;
+    }
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .projects-card img{
+        width: 40vw;
+    }
+}
+
+@media(max-width: 600px){
+    header #menu-icon{
+        display: block;
+    }
+    header .logo img{
+        width: 130px; 
+    }
+    .projects-card img{
+        width: vw;
+    }
+    .nav-links{
+        position: absolute;
+        top: 100%;
+        margin-top: 1rem;
+        width: 100%;
+        padding: 1rem;
+        color: #643b9f;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color:#B9ff66;
+        border-radius: 3rem;
+        display: none;
+    }
+    .nav-links li{
+        margin-top: 1.5rem;
+        padding: 1rem;
+
+    }
+    .nav-links.active{
+        display: block;
+    }
+    header{
+        padding: 1rem 5rem;
+        gap: 8rem;
+
+    }
+    .about-container img{
+        width: 80vw;
+    }
+    .input-box input{
+        padding: 0.5rem 3rem;
+        width: 80%;
+        font-size: 1.5rem;
+    }
+    .input-box input::placeholder{
+        font-size: 1.5rem;
+    }
+    footer ul{
+        gap: 1rem;
+
+    }
 }

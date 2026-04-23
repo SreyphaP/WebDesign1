@@ -1,0 +1,76 @@
+
+
+.cardsdigi{
+    padding: 2rem;
+    margin-top: 10rem;
+    gap: 1.5rem;
+}
+
+@media screen and (min-width: 450px) {
+
+
+}
+
+@media screen and (min-width: 800px) {
+
+.card1 { grid-area: a; }
+.card2 { grid-area: b; }
+.card3 { grid-area: c; }
+.card4 { grid-area: d; }
+.card5 { grid-area: e; }
+.crad6 { grid-area: f; }
+.card7 { grid-area: g; }
+.crad8 { grid-area: h; }
+.card9 { grid-area: i; }
+
+.cardsdigi {
+       gap: ;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 10 px;
+        grid-template-areas:
+            "f g"
+            "h i"
+            "e d"
+            "a b"
+            "c c"
+  }
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    #container {
+        width: 95%;
+    }
+
+    nav ul li {
+      margin: 5px;
+    }
+
+.card1 { grid-area: a; }
+.card2 { grid-area: b; }
+.card3 { grid-area: c; }
+.card4 { grid-area: d; }
+.card5 { grid-area: e; }
+.crad6 { grid-area: f; }
+.card7 { grid-area: g; }
+.crad8 { grid-area: h; }
+.card9 { grid-area: i; }
+
+
+
+
+.cardsdigi {
+      
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10 px;
+        grid-template-areas:
+            "f g h"
+            "i e d "
+            "c a b "
+           
+    }
